@@ -1,0 +1,10 @@
+{
+  "name": "gradle-lambda-demo",
+  "description": "A demo of a javascript function being pushed to AWS Lambda via Gradle build tool",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": "https://github.com/RedPillAnalytics/gradle-lambda-demo",
+  "dependencies": {
+    "node-fetch": "^1.7.1"
+  }
+}
