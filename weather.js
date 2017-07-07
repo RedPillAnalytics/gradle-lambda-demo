@@ -1,6 +1,6 @@
 const fetch = require('node-fetch')
 const keys = require('./keys.js')
-const zip = 30144
+const zip = 94129
 
 fetch('http://api.wunderground.com/api/' + keys.wunderground + '/hourly/q/' + zip + '.json').then((res) => {
   return res.json()
