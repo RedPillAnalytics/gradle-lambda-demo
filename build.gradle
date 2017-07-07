@@ -1,0 +1,5 @@
+task lambda {
+    doLast {
+        println 'Publish js files to lambda from here :)'
+    }
+}
